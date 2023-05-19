@@ -1,7 +1,20 @@
 :root {
-     --cor:#6572eb;
+     --cor-de-fundo:#6572eb;
+     --cor-cabecalho: #95d6ff;
+     --fundo-menu: #3aadf5;
 }
 
 body{
-   background-color: var(--cor);
+   background-color: var(--cor-cabecalho);
+}
+
+.cabecalho {
+   background-color: var(--cor-cabecalho);
+}
+
+.cabecalho-titulo {
+    font-size: 36px;
+    font-weight: 700;
+    padding: 12px;
+    text-align: center;
 }
